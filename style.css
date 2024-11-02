@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: rgb(177,222,251);
+    background: linear-gradient(90deg, rgba(177,222,251,1) 0%, rgba(0,255,153,1) 100%);
+    font-family: 'Montserrat';
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+#input {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    height: 4rem;
+    border: none;
+    border-radius: 10px;
+    width: 220px;
+    min-width: 100px;
+    max-width: 500px;
+    padding: 1em;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 500ms all ease;
+    outline-color: #00b700;
+}
+
+#input:focus {
+    width: 15rem;
+}
+
+
+.container .btns {
+    margin-top: 20px;
+}
+
+.container .btns button {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 5rem;
+    height: 3rem;
+    font-weight: 600;
+    transition: 200ms all ease;
+    background-color: #5eff7e;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.container .btns button:hover {
+    transform: scale(1.1);
+}
+
+.container .btns button:active {
+    background-color: #afffbf;
+}
+
+.note {
+    margin-top: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.note h1 {
+    font-size: 1rem;
+}
+
+#notes h3 {
+    text-align: center;
+}
+
+.note p {
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+#notes-block {
+    margin-top: 20px;
+    background-color: white;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#notes-block #notes {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#notes .note {
+    position: relative;
+    margin-right: 20px;
+    min-width: 6rem;
+    padding: 10px;
+}
+
+#notes-block #notes button {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+    font-weight: 600;
+    transition: 200ms all ease;
+    background-color: #5eff7e;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+#notes-block #notes button:active {
+    background-color: #afffbf;
+}
